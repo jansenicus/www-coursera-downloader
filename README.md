@@ -87,7 +87,7 @@ There are 13 courses available
 ## Requirements
 - Python packages requirements:
 ```
-    os, re, sys, splinter, selenium, time, urllib2
+    Crypto, os, re, sys, splinter, selenium, time, urllib2
 ```
 
 - Javascript package requirement:
