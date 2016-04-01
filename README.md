@@ -19,7 +19,7 @@
 ```
 - usage:
 ```
-    python CourseraDownloader-2.7.pyc
+    python www-coursera-downloader.pyc
 ```
 - You will be prompted to supply user (email) and password for your Coursera account;
 ```
