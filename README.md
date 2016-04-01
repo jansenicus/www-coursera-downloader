@@ -102,4 +102,6 @@ There are 13 courses available
 
 - You may want to use [phantomjsInstaller.sh](phantomjsInstaller.sh) within this repository.
 
+- for windows users please check recommended packages [here](windows.md).
+
 if you find it useful please donate: vera.verum.veritas@gmail.com, I am looking for a new job.
