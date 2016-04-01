@@ -1,4 +1,9 @@
 # Coursera Downloader
+- to answer [a question in quora](https://www.quora.com/Is-there-a-way-to-mass-download-the-materials-from-a-Coursera-course/answer/Jansen-Simanullang?share=1):
+```
+    Is there a way to mass download the materials from a Coursera course?
+```
+
 
 ## Download all videos in all weeks of all lesson in one specified course.
 
