@@ -5,13 +5,14 @@
 # (c) Jansen A. Simanullang
 # Automated Coursera Downloader
 # START: 28.03.2016 18:17
-# LAST: 01.04.2016
+# LAST: 03.04.2016 17:12
 #---------------------------------------
 # usage:
 # python CourseraDownloader.py
 #
 # changes:
 # 01.04.2016: Courses list downloaded
+# 03.04.2016: adjust string for multiple 16
 #---------------------------------------
 
 from splinter import Browser
@@ -61,9 +62,7 @@ def adjustStr16(strInput):
 
 	remainder = len(strInput)%16
 	
-	quotient = len(strInput)/16
-
-	#print("len: ", len(strInput), "multiples: ", multiples, "remainder: ", remainder, "quotient: ", quotient)
+	#print("len: ", len(strInput), "multiples: ", multiples, "remainder: ", remainder)
 	
 	if remainder:
 		strInput = strInput.ljust((multiples*16))
@@ -443,9 +442,6 @@ def createCSV(fullCourseName):
 	f.close()
 	
 
-	
-	
-	
 def cleanTitle(strText):
 
 	strText = strText.replace(":","")
@@ -723,9 +719,6 @@ def main():
 	
 	global email, password, fullCourseName
 	
-	fullCourseName = 'Machine Learning Foundations: A Case Study Approach'
-
-	
 	clearScreen()
 	
 	print headerText
@@ -753,5 +746,3 @@ def main():
 	
 	
 main()
-#email, password = getUserPass("coursera.pass")
-#getCourses(email, password)	
