@@ -1,5 +1,5 @@
 # Coursera Downloader
-- to answer [a question in quora](https://www.quora.com/Is-there-a-way-to-mass-download-the-materials-from-a-Coursera-course/answer/Jansen-Simanullang?share=1):
+- to answer [several similar questions in quora](https://www.quora.com/Is-there-a-way-to-mass-download-the-materials-from-a-Coursera-course/answer/Jansen-Simanullang?share=1):
 ```
     Is there a way to mass download the materials from a Coursera course?
     
@@ -7,9 +7,10 @@
     
     Are there any ways to batch download the complete course videos on coursera new platform?
     
+    How do I write a Python script that automatically downloads all the videos of the course from Coursera?
+    
     Ashish Kedia: How can I write a Script in Python to mass download all course videos from Coursera new platform and name them by lecture title?
     
-    How do I write a Python script that automatically downloads all the videos of the course from Coursera?
 ```
 
 
