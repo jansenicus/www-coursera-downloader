@@ -237,8 +237,6 @@ def getCourses(email, password):
 			
 	print "\nYou have chosen: ["+str(pick)+"] " + fullCourseName + "\n"
 	
-	return fullCourseName
-	
 	try:
 		print "\nClosing connection..."
 		time.sleep(15)
@@ -247,6 +245,7 @@ def getCourses(email, password):
 		
 		print footerText
 
+	return fullCourseName	
 			
 def getLessons(email, password, fullCourseName):
 	#--------------------------------
@@ -346,7 +345,9 @@ def getLessons(email, password, fullCourseName):
 		
 		time.sleep(5)
 		
-		selector = '#rendered-content > div > div.rc-OndemandApp > div.rc-HomeLayout > div.rc-HomeLayoutBody.horizontal-box > div.od-contents > main > div.rc-PeriodPage > div.horizontal-box.wrap > div > section > div.rc-LessonList.card-rich-interaction.od-section > div > div'
+		#selector = '#rendered-content > div > div.rc-OndemandApp > div.rc-HomeLayout > div.rc-HomeLayoutBody.horizontal-box > div.od-contents > main > div.rc-PeriodPage > div.horizontal-box.wrap > div > section > div.rc-LessonList.card-rich-interaction.od-section > div > div'
+		
+		selector = '#rendered-content > div > div.rc-OndemandApp > div > div.rc-HomeLayoutBody > main > div > div.rc-PeriodPage > div.horizontal-box.wrap > div > section > div.rc-LessonList.card-rich-interaction.od-section > div > div'
 		
 		items = browser.find_by_css(selector)
 		
@@ -522,7 +523,9 @@ def fetchVideo(arrLessonTitle, arrLessonURL):
 					
 			try:
 			
-				selector = '#rendered-content > div > div.rc-OndemandApp > div.rc-ItemLayout > div:nth-child(3) > div > div > div > div.horizontal-box.week-drawer-container > div.content-container.flex-1 > div.extras.horizontal-box.align-items-top.wrap > div.rc-LectureResources.styleguide > ul > li'
+				#selector = '#rendered-content > div > div.rc-OndemandApp > div.rc-ItemLayout > div:nth-child(3) > div > div > div > div.horizontal-box.week-drawer-container > div.content-container.flex-1 > div.extras.horizontal-box.align-items-top.wrap > div.rc-LectureResources.styleguide > ul > li'
+				
+				selector = '#rendered-content > div > div.rc-OndemandApp > div > div:nth-child(2) > div > div > div > div.horizontal-box.week-drawer-container > div.content-container.flex-1 > div.extras.horizontal-box.align-items-top.wrap > div.rc-LectureResources.styleguide > ul > li'
 				
 				courses = browser.find_by_css(selector)
 				
@@ -556,7 +559,7 @@ def fetchVideo(arrLessonTitle, arrLessonURL):
 
 def precheck(strLessonTitle, fullCourseName):
 
-	words = ['Quiz:', 'Reading:']
+	words = ['Quiz:', 'Reading:', 'Overview']
 		
 	checkResult = False
 	
