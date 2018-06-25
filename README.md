@@ -4,6 +4,7 @@
 - download vtt subtitles;
 - automatic conversion of vtt to srt format;
 - read html readings and save to html file;
+- creation of m3u playlist.
 
 
 # PREVIEW
