@@ -1,3 +1,11 @@
+# FEATURES
+- download quizzes and practice quizzes.
+- download all video lectures;
+- download vtt subtitles;
+- automatic conversion of vtt to srt format;
+- read html readings and save to html file;
+
+
 # PREVIEW
 Click [here](http://nbviewer.jupyter.org/github/jansenicus/www-coursera-downloader/blob/master/WWW-COURSERA-DOWNLOADER.ipynb) to preview the Notebook
 
