@@ -1,3 +1,12 @@
+# PREVIEW
+Click [here](http://nbviewer.jupyter.org/github/jansenicus/www-coursera-downloader/blob/master/WWW-COURSERA-DOWNLOADER.ipynb) to preview the Notebook
+
+# REQUIREMENTS:
+```
+python3
+jupyter notebook
+```
+
 # Coursera Downloader
 - to answer [several similar questions in quora](https://www.quora.com/Is-there-a-way-to-mass-download-the-materials-from-a-Coursera-course/answer/Jansen-Simanullang?share=1):
 ```
@@ -36,5 +45,4 @@
     jupyter notebook
 ```
 
-Take a look at the notebook preview here:
-http://nbviewer.jupyter.org/github/jansenicus/www-coursera-downloader/blob/master/WWW-COURSERA-DOWNLOADER.ipynb
+
