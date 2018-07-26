@@ -8,7 +8,10 @@
 
 
 # PREVIEW
-Click [here](http://nbviewer.jupyter.org/github/jansenicus/www-coursera-downloader/blob/master/WWW-COURSERA-DOWNLOADER.ipynb) to preview the Notebook
+Click below to preview the Notebook:
+- [ONE COURSE AT A TIME](http://nbviewer.jupyter.org/github/jansenicus/www-coursera-downloader/blob/master/WWW-COURSERA-DOWNLOADER.ipynb) 
+- [MULTI COURSE AT ONCE](http://nbviewer.jupyter.org/github/jansenicus/www-coursera-downloader/blob/master/WWW-COURSERA-DOWNLOADER-MULTI-COURSE.ipynb) 
+
 
 # REQUIREMENTS:
 ```
